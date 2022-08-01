@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taskGame</title>
+</head>
+<style>
+    .wrap{
+        
+        margin: 10px 5%;
+        color:rgb(7, 233, 233);
+    }
+    #button{
+        width:225px;
+        height: 60px;
+        background-color: azure;
+        border: 0;
+    }
+    .wrapButton{
+        display: flex;
+    }
+</style>
+<body class="wrap">
+    <canvas id="canvas" height="550" width="1750" style="border: 1px solid green"></canvas>
+</body>
+<div class="wrapButton">
+    <button id="button" onclick="pushButton()">ACCELERATE</button>
+    <button id="testButton" onclick="checkLogConsole()">CHECK-LOG-CONSOLE</button>
+    <button id="buttonMap" onclick="checkMapConsole()">CHECK-MAP-CONSOLE</button>
+
+</div>
+<script src="add-3.js"></script>
+<script src="add-2.js"></script>
+<script src="add-1.js"></script>
+<script src="add-0.js"></script>
+<script src="common.js"></script>
+
+</html>
